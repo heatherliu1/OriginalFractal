@@ -15,6 +15,6 @@ public void myCircle(int x, int y, int siz) {
   circle(x, y, siz, siz);
   if (siz > 2) {
     fill((int)(Math.random()*256)*2);
-    myCircle(x,y,siz/2);
+    myCircle(x,y,siz/2,siz/2);
   }
 }
